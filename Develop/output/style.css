@@ -1,0 +1,11 @@
+#topHeading {
+  background-color: blue;
+
+}
+#textHeading {
+  color: white;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
