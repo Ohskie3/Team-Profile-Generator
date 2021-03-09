@@ -1,11 +1,22 @@
 #topHeading {
   background-color: blue;
-
 }
+
 #textHeading {
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
-.container {
-  display: flex;
-  justify-content: space-around;
+
+.card {
+  box-shadow: 3px 3px 2px grey;
+}
+
+.card-header {
+  background-color: orangered;
+  color: white;
+}
+
+.card-body {
+  background-color: rgb(168, 168, 168);
 }
