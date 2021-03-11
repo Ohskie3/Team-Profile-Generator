@@ -116,13 +116,14 @@ const manager = () => {
       message: 'What is your email?'
     },
     {
-      type: 'number',
-      name: 'office',
+      type: 'input',
+      name: 'officeNumber',
       message: 'What is your office number?'
     }
   ])
   .then(res => {
-    employees.push(new Manager(res.name, res.id, res.email, res.office))
+    console.log(res)
+    employees.push(new Manager(res.name, res.id, res.email, res.officeNumber))
     question()
   })
     .catch(err => console.log(err))

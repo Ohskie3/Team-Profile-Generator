@@ -1,5 +1,6 @@
-#topHeading {
+.team-heading {
   background-color: blue;
+  color: white;
 }
 
 #textHeading {
@@ -20,3 +21,4 @@
 .card-body {
   background-color: rgb(168, 168, 168);
 }
+
